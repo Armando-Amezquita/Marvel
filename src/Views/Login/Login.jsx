@@ -6,18 +6,18 @@ import { Link } from 'react-router-dom';
 export default function Login () {
     return (
         <>
-        <main className={styles.containerMain}>
+        <main className={styles.containerMainLogin}>
             <div className={styles.containerSections}>
                 <section className={styles.containerLeft}>
                     <p className={styles.logo}>Logo</p>
                     <form className={styles.containerForm}>
-                        <h1 className={styles.titleForm}> ¡Ingresa a tu cuenta! </h1>
+                        <h1 className={styles.titleForm}> ¡Ingresa a tu cuenta!..<span className="pruebaspan"> &#160; </span>  </h1>
                         <div className={styles.containerButtonsSocial}>
                             <button type='submit' className={styles.buttonGoogle}>
-                                <span> </span> Iniciar con Google
+                            <i class="fa-brands fa-google"></i> Iniciar con Google
                             </button>
                             <button type='submit' className={styles.buttonMeta}>
-                                Iniciar con Facebook
+                            <i id='icon' class="fa-brands fa-facebook-f"></i> Iniciar con Facebook
                             </button>
                         </div>
                         <label htmlFor="email" className={styles.labels}>
@@ -49,6 +49,10 @@ export default function Login () {
                     <p className={styles.image}></p>
                 </section>
             </div>
+            <Link to='/' className={styles.link}>
+                <button>Volver</button>
+            </Link>
+            
         </main>
         </>
     )
