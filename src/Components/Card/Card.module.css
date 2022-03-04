@@ -1,13 +1,11 @@
 .articleCard {
-    margin: 0 auto;
-    width: auto;
-    height: auto;
+    width: 30rem;
+    height: 30rem;
+    border: none;
     border-radius: .5rem;
-    margin: 1rem;
     background-color: transparent;
     color: white;
     box-shadow: 0 0 10px #21f3d0, 0 0 1.5px #21f3d0;
-
 }
 .articleCard:hover{
     box-shadow: 0 0 10px #21f3d0, 0 0 15px #21f3d0, 0 0 30px #21f3d0;
@@ -20,12 +18,11 @@
     text-decoration: none;
 }
 .img {
-    width: 25rem;
-    height: 15rem;
-    border-radius: .5rem;
-    border-bottom-left-radius: 4.5rem;
-    border-bottom-right-radius: 4.5rem;
-    margin-bottom: 1rem;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 1rem;
 }
 .name {
     color:white;

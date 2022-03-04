@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from './Card.module.css';
 
-export default function Card ({ name, image, id }){
+export default function Card ({ name, image }){
     return(
         <article className={styles.articleCard}>
             <Link to={`/`} className={styles.linkCard}>

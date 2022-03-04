@@ -1,0 +1,168 @@
+.containerMainHome{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+    width: 100%;
+    height: 75.5vh;
+    background-color: #000;
+}
+.containerFirstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.parrafos{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.titleName{
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    text-shadow: 0 0 15px #22577E, 0 0 20px #22577E, 0 0 40px #22577E;
+    line-height: 6rem;
+    color: aliceblue;
+    margin: 1rem 0;
+}
+.presentation{
+    width: 60%;
+}
+.presentationImage{
+    width: 50%;
+    height: 50rem;
+    margin: 4rem auto;
+    background-image:  url('../../Images/rocket-g35c00898a_1280.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: nave 7s ease-in-out 500ms infinite;
+}
+.containerFirstSection .presentation a{
+    color: lightblue;
+}
+
+/* ----------------->>>> Second Section <<<<< ----------------- */
+
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+    background-color: aliceblue;   
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+.containerSecondSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.titleSecondSection{
+    font-size: 4rem;
+    margin: 2rem;
+}
+.linka{
+    color: #22577E;
+}
+.parrafos2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* -------------->>>>>>>>>>> Third Section <<<<<---------------------- */
+
+.thirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30rem;   
+    padding: 4rem 0 1rem 0;
+    background-color: #000;
+}
+.titleThirdSection{
+    font-size: 4rem;
+    text-shadow: 0 0 15px #22577E, 0 0 20px #22577E, 0 0 40px #22577E;
+    margin: .5rem;
+    color: aliceblue;
+}
+.containerThirdSection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+}
+.containerThirdSectionLogos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.divDuo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.presentationSpan{
+    color: aliceblue;
+}
+.logoJS{
+    width: 10rem;
+    height: 10rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    margin: 0 1rem;
+}
+
+.logoReact{
+    width: 10rem;
+    height: 10rem;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    margin: 0 1rem;
+}
+.logoSequelize{
+    width: 10rem;
+    height: 10rem;
+    background-image: url('http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 1rem;
+}
+.logoNode{
+    width: 10rem;
+    height: 10rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 1rem;
+}
+
+@keyframes nave {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
