@@ -13,8 +13,8 @@ export default function Nav () {
                 <Link to='/login' className={styles.underline}>
                     <p className={styles.font}>Login</p>
                 </Link>
-                <Link to='/apimarvel' className={styles.underline}>
-                    <p className={styles.font}>API MARVEL</p> 
+                <Link to='/marvel' className={styles.underline}>
+                    <p className={styles.font}>Marvel</p> 
                 </Link>
                 <Link to='/ecommerce' className={styles.underline}>
                     <p className={styles.font}>Ecommerce</p>
